@@ -4,17 +4,41 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ☀️ LIGHT MODE (Default CSS Variables) */
 :root {
   --font-display: 'Bebas Neue';
   --font-body: 'DM Sans';
+  
+  --gold: #E0B000;
+  --gold-dark: #A88300;
+  --gold-light: #F5C518;
+  
+  --bg: #F8F9FA;
+  --surface: #FFFFFF;
+  --surface-2: #F1F3F5;
+  --surface-3: #E9ECEF;
+  --surface-4: #DEE2E6;
+  
+  --text: #1A1A1A;
+  --text-muted: #6C757D;
+  --border: #E2E8F0;
+}
+
+/* 🌙 DARK MODE (Activated by the .dark class on HTML tag) */
+.dark {
+  --font-display: 'Bebas Neue';
+  --font-body: 'DM Sans';
+  
   --gold: #F5C518;
   --gold-dark: #C9A000;
   --gold-light: #FFD84D;
+  
   --bg: #0A0A0A;
   --surface: #111111;
   --surface-2: #1A1A1A;
   --surface-3: #222222;
   --surface-4: #2C2C2C;
+  
   --text: #F0F0F0;
   --text-muted: #888888;
   --border: #2A2A2A;
